@@ -2,19 +2,19 @@
 
 Screenshots
 
-![image info](./Screenshots/homescreen.png)
+![image info](./FetchTakeHome/Screenshots/homescreen.png)
 
 The app's homescreen displays all its recipes in a list, each cell displays an image fetched using photo_url_small url from the network or the cache on the left, and the dish's name and cuisine type on the right. The list supports the pull-down-to-refresh feature as well.
 
-![image info](./Screenshots/details_screen.png)
+![image info](./FetchTakeHome/Screenshots/details_screen.png)
 
 Upon tapping one of the recipes on the homescreen, the user is led to the details screen. The details screen displays the dish's name, cuisine, a photo fetched with the photo_url_large url from the network or the cache, and buttons to redirect the user to the recipe's source or YouTube video.
 
-![image info](./Screenshots/malformed_json_scenario.png)
+![image info](./FetchTakeHome/Screenshots/malformed_json_scenario.png)
 
 In case the data received contains a malformed JSON response, the app will throw an alert informing the user of the relevant error and a button to refresh.
 
-![image info](./Screenshots/no_recipes_available_scenario.png)
+![image info](./FetchTakeHome/Screenshots/no_recipes_available_scenario.png)
 
 In the scenario where there are no recipes, the app will display a relevant message to inform to user that no recipes are available.
 
