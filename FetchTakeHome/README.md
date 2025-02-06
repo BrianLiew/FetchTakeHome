@@ -10,15 +10,15 @@ The app's homescreen displays all its recipes in a list, each cell displays an i
 
 Upon tapping one of the recipes on the homescreen, the user is led to the details screen. The details screen displays the dish's name, cuisine, a photo fetched with the photo_url_large url from the network or the cache, and buttons to redirect the user to the recipe's source or YouTube video.
 
-![image info](./Screenshots/malformed_json_scenario.png.png)
+![image info](./Screenshots/malformed_json_scenario.png)
 
 In case the data received contains a malformed JSON response, the app will throw an alert informing the user of the relevant error and a button to refresh.
 
-![image info](./Screenshots/no_recipes_available_scenario.png.png)
+![image info](./Screenshots/no_recipes_available_scenario.png)
 
 In the scenario where there are no recipes, the app will display a relevant message to inform to user that no recipes are available.
 
-![image info](./Screenshots/video%20demo.mp4)
+https://github.com/user-attachments/assets/6e7105fb-8e3d-4f16-b726-5055c7b85d31
 
 This is a quick video demonstration of the app. This video demonstrates the caching capabilities developed. The small and large images used in the list view and details view respectively are fetched from the network if not cached. Images in the cache are fetched the next time they are required, loading instantly and avoid unncesscary network calls.
 
